@@ -1,14 +1,47 @@
-# USpeech
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+<div align="center"> 
 
-Official implementation of USpeech: Ultrasound-Enhanced Speech with Minimal Human Effort via Cross-Modal Synthesis
+# USpeech: Ultrasound-Enhanced Speech with Minimal Human Effort via Cross-Modal Synthesis
+</div>
+
+<div align="center">   
+
+[![Static Badge](https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green)](https://arxiv.org/abs/2410.22076) [![YouTube Badge](https://img.shields.io/badge/Video-Watch-red?&logo=youtube)](https://aiot-lab.github.io/USpeech/src/videos/video.mp4) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Project Page](https://img.shields.io/badge/Project%20Page-USpeech-yellow)](https://aiot-lab.github.io/USpeech/)
+</div>
+
+<div align="center">
+    <a href=https://lucayu.me/>
+        Luca Jiang-Tao Yu
+    </a>
+    ,
+    <a href=https://zhaorunning.github.io/>
+        Running Zhao
+    </a>
+    ,
+    <a href=https://sijieji.github.io/>
+        Sijie Ji
+    </a>
+    ,
+    <a href=https://www.eee.hku.hk/~iotlab/EdithNgai.html>
+        Edith C.H. Ngai
+    </a>
+    ,
+    <a href=https://cswu.me/>
+        Chenshu Wu
+    </a>
+</div>
+
+<div align="center">
+
+The University of Hong Kong
+</div>
+The official implementation of USpeech: Ultrasound-Enhanced Speech with Minimal Human Effort via Cross-Modal Synthesis accepted by ACM Ubicomp/IMWUT 2025.
+
+---
 
 ## Abstract
-> Speech enhancement is pivotal in human-computer interaction, especially in ubiquitous devices. Ultrasound-based speech enhancement has emerged as an attractive choice without the need for extra hardware. Existing solutions, however, rely on labor-intensive and time-consuming data collection under various settings, limiting the full potential of ultrasound-based speech enhancement. To address the challenge, we propose USpeech, a cross-modal ultrasound synthesis system for speech enhancement with minimal human effort. At the core of USpeech is a two-stage framework that establishes a correspondence between visual and ultrasonic modalities by leveraging the audible audio as the bridge, overcoming challenges caused by the lack of paired video-ultrasound datasets and the inherent heterogeneity between video and ultrasound. Our framework incorporates contrastive video-audio pre-training to project multiple modalities into a shared semantic space and employs an audio-ultrasound encoder-decoder for ultrasound synthesis. Based on this, we present a speech enhancement network to enhance the speech in the time-frequency domain and further recover the clean speech waveform via the neural vocoder. Comprehensive experiments show that USpeech demonstrates remarkable performance using synthetic ultrasound data, comparable to that using physical data, while significantly outperforming state-of-the-art baselines.
-##
-<p align="center"> <img src='fig/overall.png' align="center"> </p>
+Speech enhancement is crucial for ubiquitous human-computer interaction. Recently, ultrasound-based acoustic sensing has emerged as an attractive choice for speech enhancement because of its superior ubiquity and performance. However, due to inevitable interference from unexpected and unintended sources during audio-ultrasound data acquisition, existing solutions rely heavily on human effort for data collection and processing. This leads to significant data scarcity that limits the full potential of ultrasound-based speech enhancement. To address this, we propose USpeech, a cross-modal ultrasound synthesis framework for speech enhancement with minimal human effort. At its core is a two-stage framework that establishes the correspondence between visual and ultrasonic modalities by leveraging audio as a bridge. This approach overcomes challenges from the lack of paired video-ultrasound datasets and the inherent heterogeneity between video and ultrasound data. Our framework incorporates contrastive video-audio pre-training to project modalities into a shared semantic space and employs an audio-ultrasound encoder-decoder for ultrasound synthesis. We then present a speech enhancement network that enhances speech in the time-frequency domain and recovers the clean speech waveform via a neural vocoder. Comprehensive experiments show USpeech achieves remarkable performance using synthetic ultrasound data comparable to physical data, outperforming state-of-the-art ultrasound-based speech enhancement baselines.
 
-> **USpeech: Ultrasound-Enhanced Speech with Minimal Human Effort via Cross-Modal Synthesis**               
+<p align="center"> <img src='src/figures/thumbnail.jpg' align="center"> </p>
 
 ---
 ## Setup Instructions
@@ -97,6 +130,3 @@ $ pip install -e .
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
-
-
-
