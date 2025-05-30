@@ -34,7 +34,7 @@
 
 The University of Hong Kong
 </div>
-The official implementation of USpeech: Ultrasound-Enhanced Speech with Minimal Human Effort via Cross-Modal Synthesis accepted by ACM Ubicomp/IMWUT 2025.
+The official implementation of USpeech: Ultrasound-Enhanced Speech with Minimal Human Effort via Cross-Modal Synthesis, accepted by ACM Ubicomp/IMWUT 2025.
 
 ---
 
