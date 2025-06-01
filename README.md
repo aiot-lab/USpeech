@@ -5,7 +5,8 @@
 
 <div align="center">   
 
-[![Static Badge](https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green)](https://arxiv.org/abs/2410.22076) [![YouTube Badge](https://img.shields.io/badge/Video-Watch-red?&logo=youtube)](https://aiot-lab.github.io/USpeech/src/videos/video.mp4) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Project Page](https://img.shields.io/badge/Project%20Page-USpeech-yellow)](https://aiot-lab.github.io/USpeech/)
+[![Static Badge](https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=B31B1B)](https://arxiv.org/abs/2410.22076) [![YouTube Badge](https://img.shields.io/badge/Video-Watch-red?&logo=youtube&logoColor=FF0000)](https://aiot-lab.github.io/USpeech/src/videos/video.mp4) [![Project Page](https://img.shields.io/badge/Project%20Page-USpeech-yellow.svg?logo=github&logoColor=FFFFFF)](https://aiot-lab.github.io/USpeech/) [![App Download](https://img.shields.io/badge/App%20Download-OneDrive-purple.svg?logo=android&logoColor=3DDC84)](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/lucayu_connect_hku_hk/EWxCZ_CusdtOrr4X6nGCsK4BAuccBTxwR4g1MDQNfpAjtA?e=Qy7AFe) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 </div>
 
 <div align="center">
