@@ -1,4 +1,4 @@
-torch==2.4.0+cu124
+torch==2.7.1
 loguru==0.7.2
 tqdm==4.66.5
 matplotlib==3.9.2
