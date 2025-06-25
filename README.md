@@ -121,11 +121,15 @@ $ pip install -e .
 
 ## Citation
 ```
-@article{yu2024uspeech,
+@article{yu2025uspeech,
   title={USpeech: Ultrasound-Enhanced Speech with Minimal Human Effort via Cross-Modal Synthesis},
   author={Yu, Luca Jiang-Tao and Zhao, Running and Ji, Sijie and Ngai, Edith CH and Wu, Chenshu},
-  journal={arXiv preprint arXiv:2410.22076},
-  year={2024}
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={9},
+  number={2},
+  pages={1--31},
+  year={2025},
+  publisher={ACM New York, NY, USA}
 }
 ```
 
