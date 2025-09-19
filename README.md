@@ -10,7 +10,7 @@
 </div>
 
 <div align="center">
-    <a href=https://lucayu.me/>
+    <a href=https://1ucayu.github.io/>
         Luca Jiang-Tao Yu
     </a>
     ,
